@@ -12,7 +12,10 @@ const routes = [
     component: () => import('layouts/MyLayout.vue'),
     children: [
       { path: '/index', component: () => import('pages/Index.vue') },
-      { path: '/foragidos', component: () => import('pages/dashboard/Foragidos.vue') }
+      { path: '/foragidos', component: () => import('pages/dashboard/Foragidos.vue') },
+      { path: '/denuncia', component: () => import('pages/dashboard/Denuncia.vue') },
+      { path: '/sugestao', component: () => import('pages/dashboard/Sugestao.vue') },
+      { path: '/contato', component: () => import('pages/dashboard/Contato.vue') }
     ]
   }
 ]

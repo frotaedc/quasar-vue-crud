@@ -18,9 +18,9 @@
       <q-tabs align="center">
         <q-route-tab to="/index" label="Home" />
         <q-route-tab to="/foragidos" label="Foragidos" />
-        <q-route-tab to="/page2" label="Denúncia" />
-        <q-route-tab to="/page3" label="Sugestão" />
-        <q-route-tab to="/page4" label="Contato" />
+        <q-route-tab to="/denuncia" label="Denúncia" />
+        <q-route-tab to="/sugestao" label="Sugestão" />
+        <q-route-tab to="/contato" label="Contato" />
       </q-tabs>
     </q-header>
 
